@@ -1,0 +1,6 @@
+This repository contains Project Euler problem solutions.
+(https://projecteuler.net)
+
+The code will be extensively commented to promote a learning opportunity for
+others. For right now the problems will be done in either C, C++, or Python.
+Further languages may be added later (I'd like to learn Haskell).
