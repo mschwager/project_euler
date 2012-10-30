@@ -11,7 +11,7 @@ def decimal_expansion_cycle(n):
 			return i - remainders.index(10**i % n)
 
 def main():
-	print max([decimal_expansion_cycle(i) for i in range(1,1000)])
+	print max([(i, decimal_expansion_cycle(i)) for i in range(1,1000)], key=lambda x: x[1])
 
 if __name__ == "__main__":
 	main()
